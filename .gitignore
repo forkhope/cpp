@@ -1,3 +1,10 @@
+*
+!*/
+!.gitignore
+!*.cc
+!*.cpp
+!makefile
+
 # Prerequisites
 *.d
 
