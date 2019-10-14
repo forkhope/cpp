@@ -22,7 +22,7 @@ int main()
 {
 	TheClass<int> obj1;    //template第二个参数缺省为char型
 	obj1.t = 8;
-	obj1.c.push_back("Hello, I am lixianyi"); //为容器追加元素
+	obj1.c.push_back("Hello, World"); //为容器追加元素
 	cout<<obj1.t<<", "<<obj1.c[0]<<endl;
 
 	TheClass<int, string> obj2;//template的第二个参数被指定为string型
